@@ -1,0 +1,34 @@
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 780px;
+    height: 780px;
+}
+
+.grid div {
+    width: 260px;
+    height: 260px;
+    margin-bottom: 5px;
+}
+
+h3 {
+    padding-left: 120px;
+    color: blue
+}
+
+#player {
+    font-size: 2em;
+    font-weight: 300;
+    color: rgb(138, 63, 207);
+    padding-left: 320px;
+}
+
+.playerX {
+    background-image: url('x.png');
+    background-size: cover;
+}
+
+.playerO {
+    background-image: url('o.png');
+    background-size: cover;
+}
